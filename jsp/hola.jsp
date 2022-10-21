@@ -10,6 +10,7 @@
 <HTML><HEAD><TITLE>Tercer ejemplo JSP</TITLE>
 <CENTER><table BORDER=5 BGCOLOR="#EF8429"><TR><TH CLASS="TITLE">JSP y Beans</table>
 </CENTER>
+<BODY>
 <H1>
 Voy a saludar: <jsp:getProperty name="Hola" property="name" />
 </H1>
