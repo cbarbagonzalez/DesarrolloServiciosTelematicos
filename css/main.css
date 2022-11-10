@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* main.css */
+root { 
+    display: block;
+}
+
+
+  body {
+    color: purple;
+    background-color: aquamarine; 
+  }
