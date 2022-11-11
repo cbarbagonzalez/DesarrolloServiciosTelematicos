@@ -1,0 +1,27 @@
+<html>
+<head>
+<script> 
+var newWindow; function abre() {
+
+	newWindow=window.open("","","status=yes,height=200,width=300");
+
+	if (newWindow != null) {
+
+		var newContent="<HTML><HEAD><TITLE> Nueva ventana </TITLE></HEAD>";
+
+		newContent += "<BODY><H1>Esta ventana es nueva y la he hecho yo.</H1></BODY></HTML>";
+
+		newWindow.document.write(newContent); // escribir HTML en la nueva ventana
+
+		newWindow.document.close(); }
+
+	newWindow.status="Ventana personal";
+}
+
+function cierra() { 
+	newWindow.close(); 
+history.back();} </script>
+</head>
+<body onload=abre();>
+<input type="button" value="Cerrar" onClick=cierra();>
+</body></html>
