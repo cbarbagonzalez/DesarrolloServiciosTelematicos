@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Cookies
+ * Servlet implementation class Cookies  
  */
 @WebServlet("/Cookies")
 public class Cookies extends HttpServlet {
